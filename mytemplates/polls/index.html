@@ -1,6 +1,12 @@
 <body bgcolor="#E6E6FA">
 
 <h1 align="center"> POLLS! </h1>
+
+<table align="center" cellpadding="50" cellspacing="10">
+<tr>
+
+<td>
+
 {% if latest_poll_list %}
     <ul>
     {% for poll in latest_poll_list %}
@@ -10,4 +16,15 @@
 {% else %}
     <p>No polls are available.</p>
 {% endif %}
+
+</td>
+
+<td>
+<p><img src="http://www.blogdemascotas.com.ar/wp-content/uploads/2007/10/razas_perros.jpg"/></p>
+
+<p><img src="http://www.celiacos.com/wp-content/uploads/2011/06/Nuevos-postres-sin-gluten-postres-para-cel%C3%ADacos.jpg"/></p>
+</td>
+</tr>
+</table>
+
 </body>
